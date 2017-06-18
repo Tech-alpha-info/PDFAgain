@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PDF Manager</title>
+
+    <link rel='stylesheet' href='/stylesheets/bootstrap.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+    <!--<script src="/javascripts/grid.controller.js"></script>-->
+
+</head>
+
+<body>
+
+  
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p class="text-center">
+                    <h2>PDF Manager</h2>
+                </p>
+            </div>
+        </div>
+
+        <hr />
+        <br />
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+
+                <a href="/pdfapi/test" class="btn btn-primary btn-md">Test PDF Kit</a>
+
+            </div>
+
+
+        </div>
+
+        <br />
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+
+                <a href="/pdfapi/html" class="btn btn-danger btn-md">Test HTML to PDF</a>
+
+            </div>
+        </div>
+
+
+        <br />
+        <hr />
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+
+               
+                <form method="post" action="/pdfapi/htmlToPdf">
+
+                    <input type="hidden" id="html" name="html" rows="4" cols="50" value="
+                    <h2>Test</h2>  <b>Bold Text</b> <hr />test yegdyeg ygedygye
+                    
+                    " />
+                    <br />
+                    <input type="submit" class="btn btn-success btn-md" value="Test Post HTML to PDF" />
+
+                </form>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+</body>
+</html>

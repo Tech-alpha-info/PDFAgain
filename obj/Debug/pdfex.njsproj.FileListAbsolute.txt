@@ -1,0 +1,2 @@
+C:\Users\field\Documents\NOVOCO 2\NODE\pdfex\obj\Debug\pdfex.njsprojResolveAssemblyReference.cache
+C:\Users\field\Documents\NOVOCO 2\NODE\pdfex\bin\Microsoft.NodejsTools.WebRole.dll

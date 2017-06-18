@@ -1,0 +1,44 @@
+﻿
+
+/* App specific overrides */
+
+
+.btn-md  {
+    min-width: 200px!important;
+
+}
+
+hr {
+    border-bottom:1px solid black;
+}
+
+
+button.nesting-level {
+   display: none!important;
+}
+
+
+
+button.nesting-level {
+   display: none!important;
+}
+
+
+button.heading-1 {
+  display: none!important;
+}
+
+
+.validation-wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border:1px solid #cc3300;
+    border-radius:5px;
+}
+
+.control-wrapper{
+    margin-bottom:5px;
+}
+

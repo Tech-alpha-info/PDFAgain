@@ -1,0 +1,31 @@
+{
+  "name": "MeanCRUD",
+  "version": "1.0.0",
+  "description": "A MEAN stack example of Crud operations using rest api feeding into an angular UI.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Ed Fields",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "browserify": "^14.4.0",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "html-pdf": "^2.1.0",
+    "jsonfile": "^3.0.0",
+    "mongoose": "^4.3.1",
+    "morgan": "^1.6.1",
+    "pdfkit": "^0.8.2"
+  }
+}
