@@ -106,7 +106,7 @@ app.use(function(err, req, res, next) {
 
 
 // Start Server
-var server = app.listen(config.Port, function(){
+var server = app.listen(process.env.PORT || config.Port, function(){
   var port = server.address().port;
   console.log('Listening on port: ', port);
 });
