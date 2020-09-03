@@ -24,7 +24,7 @@
     "gulp": "^3.9.0",
     "html-pdf": "^2.1.0",
     "jsonfile": "^3.0.0",
-    "mongoose": "^4.3.1",
+    "mongoose": "^5.10.2",
     "morgan": "^1.6.1",
     "pdfkit": "^0.8.2"
   }
